@@ -13,5 +13,4 @@ public abstract class PluginInstance<T>: MonoBehaviour where T : MonoBehaviour{
     protected virtual void OnDestroy() {
         Object.Destroy(base.gameObject);
     }
-    
 }
